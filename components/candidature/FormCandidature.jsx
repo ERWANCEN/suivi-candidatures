@@ -23,7 +23,7 @@ export const FormCandidature = () => {
         try {
             await axios.post(URL.CANDIDATURE_POST, candidature);
         } catch (error) {
-            console.log(error.message);
+            return NextResponse.json({ error: e.message }, { status: 500 });
         };
     }
 

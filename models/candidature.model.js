@@ -19,7 +19,7 @@ const CandidatureSchema = new mongoose.Schema(
             type: String,
             enum: ["Accepté", "En attente", "Refusé"],
             default: "En attente"
-        }
+        },
     }, { timestamps: true }
 );
 
