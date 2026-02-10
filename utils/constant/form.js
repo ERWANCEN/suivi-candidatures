@@ -40,3 +40,34 @@ export const FORM_CANDIDATURE = [
         ]
     },
 ]
+
+
+export const FORM_USER = [
+    {
+        id: "nom",
+        classNameLabel: "Nom",
+        label: "Nom",
+        type: "text",
+        name: "nom",
+        classNameInput: "nom",
+        placeholder: "Le nom"
+    },
+    {
+        id: "mail",
+        classNameLabel: "Mail",
+        label: "Mail",
+        type: "email",
+        name: "mail",
+        classNameInput: "mail",
+        placeholder: "Le mail"
+    },
+    {
+        id: "mdp",
+        classNameLabel: "Mdp",
+        label: "Mot de passe",
+        type: "password",
+        name: "mdp",
+        classNameInput: "mdp",
+        placeholder: "Le Mot de passe"
+    }
+]
